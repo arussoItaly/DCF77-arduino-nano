@@ -6,7 +6,7 @@ Componenti:
   - Modulo ricevitore DCF77 RC8000
   - Schermo OLED da 0.96 pollici SSD1306
 
-  - led per visualizzare la ricezione del segnale (opzionale)
+  - led per visualizzare la ricezione del segnale + resistenza da xxx ohm per il led (opzionale)
   - bottone per abilitare/disabilitare il led (opzionale)
 
   - filtro anti-disturbo da applicare all'entrata del modulo RC8000
@@ -31,6 +31,6 @@ Componenti:
     - integrato RTC DS1302
     - quarzo da 32768
   
-  - resistenza per aumentare la corrente assorbita (opzionale) da utilizzare caso in cui si alimenti il tutto con un power bank (che si spengono automaticamente quando il carico è troppo basso).
+  - resistenza da xxx ohm per aumentare la corrente assorbita (opzionale) da utilizzare caso in cui si alimenti il tutto con un power bank (che si spengono automaticamente quando il carico è troppo basso).
 
 Nel codice è presente una sezione di configurazioni in modo da cambiare il comportamento e disabilitare/abilitare RTC, resistenza, led, ecc.
