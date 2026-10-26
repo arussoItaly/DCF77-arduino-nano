@@ -13,18 +13,13 @@ Componenti:
     - 100 nF ceramico multistrato
     - 10 µF elettrolitico
 ```
-         Ferrite
-            |
-          RC8000
-        |        |
-       GND      VCC
-        |        |
-        -  10µF  +
-        |        !
-        - 100nF  +
-        |        |
-        GND     VCC (3.3V)
-          Arduino
+Arduino Nano (3.3V) --------+-----------------------------------------+--------> VCC (RC8000)
+                            |                                         |
+                           [+]                                       ---  100 nF (Ceramico Multistrato)
+                      10 µF (Elettrolitico)                          ---  (Filtra disturbi ad alta freq.)
+                           [-]                                        |
+                            |                                         |
+  Arduino Nano (GND) -------+-----------------------------------------+--------> GND (RC8000)
   ```
   - RTC per mantenere l'ora corretta quando non è ricevuto il segnale di DCF77 (opzionale), in quanto il clock interno dell'Arduino nano perde normalmente circa 6 secondi ogni 15 minuti.
   
