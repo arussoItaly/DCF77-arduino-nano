@@ -55,6 +55,17 @@ Led
   - GND
   - Resistenza 220 ohm => D3 Arduino
 
+RTC
+  - DAT (pin 6) => D5 Arduino
+  - RST (pin 5) => D6 Arduino 
+  - CLK (pin 7) => D4 Arduino
+  - 
+  - VCC (pin 1) => 5V Arduino
+  - GND (pin 4) => GND Arduino
+    
+  - X1 (pin 2) => piedino quarzo
+  - X2 (pin 3) => piedino quarzo
+
 Resistenza di carico 330 ohm
   - GND
   - D7 Arduino
