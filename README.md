@@ -28,8 +28,8 @@ Componenti:
   
   RTC per mantenere l'ora corretta quando non è ricevuto il segnale di DCF77 (opzionale), in quanto il clock interno dell'Arduino nano perde normalmente circa 6 secondi ogni 15 minuti.
   
-    integrato RTC DS1302
-    quarzo da 32768
+  integrato RTC DS1302
+  quarzo da 32768
   
   resistenza per aumentare la corrente assorbita (opzionale) da utilizzare caso in cui si alimenti il tutto con un power bank (che si spengono automaticamente quando il carico è troppo basso).
 
