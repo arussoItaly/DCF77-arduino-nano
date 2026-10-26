@@ -6,7 +6,7 @@ Componenti:
   - Modulo ricevitore DCF77 RC8000
   - Schermo OLED da 0.96 pollici SSD1306
 
-  - (opzionale) led per visualizzare la ricezione del segnale + resistenza da xxx ohm per il led
+  - (opzionale) led per visualizzare la ricezione del segnale + resistenza da 220 ohm per il led
   - (opzionale) bottone per abilitare/disabilitare il led
 
   - filtro anti-disturbo da applicare all'entrata del modulo RC8000
@@ -28,6 +28,35 @@ Arduino Nano (GND)   -------+--------------------+--------> GND (RC8000)
    
       <img width="350" height="319" alt="CollegamentoDS1302" src="https://github.com/user-attachments/assets/e1a32c78-3b7e-4f96-a0c2-3fb90175dbb8" />
 
-  - (opzionale) resistenza da xxx ohm per aumentare la corrente assorbita da utilizzare caso in cui si alimenti il tutto con un power bank (che si spengono automaticamente quando il carico è troppo basso).
+  - (opzionale) resistenza da 330 ohm per aumentare la corrente assorbita da utilizzare caso in cui si alimenti il tutto con un power bank (che si spengono automaticamente quando il carico è troppo basso).
 
 Nel codice è presente una sezione di configurazioni in modo da cambiare il comportamento e disabilitare/abilitare RTC, resistenza, led, ecc.
+
+Collegamenti con Arduino nano
+
+Modulo DCF77 
+  - GND => GND Arduino
+  - VCC => +3.3 V Arduino
+  - OUT => D2 Arduino
+  - PON => D8 Arduino
+
+Schermo OLED
+
+  - GND => GND Arduino
+  - SDA => A4 Arduino
+  - SCL => A5 Arduino
+  - VCC => 5V Arduino
+
+Bottone
+  - GND
+  - D9 Arduino
+
+Led
+  - GND
+  - Resistenza 220 ohm => D3 Arduino
+
+Resistenza di carico 330 ohm
+  - GND
+  - D7 Arduino
+
+
