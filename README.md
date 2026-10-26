@@ -19,7 +19,7 @@ Arduino Nano (3.3V) --------+-----------------------------------------+-------->
                       10 µF (Elettrolitico)                          ---  (Filtra disturbi ad alta freq.)
                            [-]                                        |
                             |                                         |
-  Arduino Nano (GND) -------+-----------------------------------------+--------> GND (RC8000)
+Arduino Nano (GND)   -------+-----------------------------------------+--------> GND (RC8000)
   ```
   - RTC per mantenere l'ora corretta quando non è ricevuto il segnale di DCF77 (opzionale), in quanto il clock interno dell'Arduino nano perde normalmente circa 6 secondi ogni 15 minuti.
   
