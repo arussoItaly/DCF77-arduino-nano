@@ -30,7 +30,9 @@ Componenti:
   
     - integrato RTC DS1302
     - quarzo da 32768
-  
+   
+    <img width="1312" height="1199" alt="CollegamentoDS1302" src="https://github.com/user-attachments/assets/efcde857-33ab-4560-905c-e9934097a91d" />
+
   - resistenza da xxx ohm per aumentare la corrente assorbita (opzionale) da utilizzare caso in cui si alimenti il tutto con un power bank (che si spengono automaticamente quando il carico è troppo basso).
 
 Nel codice è presente una sezione di configurazioni in modo da cambiare il comportamento e disabilitare/abilitare RTC, resistenza, led, ecc.
