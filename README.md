@@ -77,5 +77,12 @@ Non mettere il modulo DCF77 vicino all'Arduino o allo schermo fanno interferenza
 
 La scatola
 
-Io ho comprato il progetto di stampa 3D di questa scatola (costa pochi euro).
+Io ho comprato il progetto di stampa 3D di questa scatola (costa pochi euro):
+
+[Universal ESP32/Arduino nano holder with display OLED 0.96"](https://cults3d.com/en/3d-model/gadget/universal-esp32-arduino-nano-holder-with-display-oled-0-96)
+
 Per il led ed il bottone che sono opzionali ho praticato due buchi nella scatola, ed ho praticato un foro di uscita per i cavi di collegamento del modulo di ricezione del segnale di DCF77.
+
+La scatola è piccola ed è molto precisa quindi ho scelto di utilizzare per i collegamenti interni dei fili piuttosto piccoli da 30AWG (diametro del conduttore circa 0,25 mm).
+
+Per centrare l'uscita USBC dell'Arduino con il foro ho messo sotto l'Arduino uno piccolo spessore di gomma e fissato ai lati l'Arduino con degli spessori in legno.
