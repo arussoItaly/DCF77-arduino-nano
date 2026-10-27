@@ -25,9 +25,18 @@ Arduino Nano (GND)   -------+--------------------+--------> GND (RC8000)
   
     - integrato RTC DS1302
     - quarzo da 32768
-   
-      <img width="350" height="319" alt="CollegamentoDS1302" src="https://github.com/user-attachments/assets/e1a32c78-3b7e-4f96-a0c2-3fb90175dbb8" />
+```
+DS1302 visto dall'alto, con la tacca in alto:
 
+                                 TACCA
+                              ┌────∪────┐
+Pin 8 — VCC1                  │         │ Pin 1 — VCC2 => Arduino 5V
+Arduino pin D4 <= Pin 7 — CLK │         │ Pin 2 — X1 ──┐
+Arduino pin D5 <= Pin 6 — DAT │ DS1302  │              ├─ Quarzo 32,768 kHz
+Arduino pin D6 <= Pin 5 — RST │         │ Pin 3 — X2 ──┘
+                              │         │ Pin 4 — GND => Arduino GND
+                              └─────────┘
+```                         
   - (*opzionale*) resistenza da 330 ohm per aumentare la corrente assorbita da utilizzare caso in cui si alimenti il tutto con un power bank (che si spengono automaticamente quando il carico è troppo basso).
 
 Nel codice è presente una sezione di configurazioni in modo da cambiare il comportamento e disabilitare/abilitare RTC, resistenza, led, ecc.
@@ -56,16 +65,17 @@ Nel codice è presente una sezione di configurazioni in modo da cambiare il comp
   - Resistenza 220 ohm => D3 Arduino
 
 #### RTC (opzionale ma consigliato)
+  - CLK (pin 7) => D4 Arduino
   - DAT (pin 6) => D5 Arduino
   - RST (pin 5) => D6 Arduino 
-  - CLK (pin 7) => D4 Arduino
   
   - VCC (pin 1) => 5V Arduino
-  - GND (pin 4) => GND Arduino
-    
+
   - X1 (pin 2) => piedino quarzo
   - X2 (pin 3) => piedino quarzo
 
+  - GND (pin 4) => GND Arduino
+                                       
 #### Resistenza di carico 330 ohm (opzionale)
   - GND
   - D7 Arduino
