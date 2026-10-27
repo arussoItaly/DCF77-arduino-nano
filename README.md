@@ -66,13 +66,16 @@ Nel codice è presente una sezione di configurazioni in modo da cambiare il comp
   - X1 (pin 2) => piedino quarzo
   - X2 (pin 3) => piedino quarzo
 
+#### Resistenza di carico 330 ohm (opzionale)
+  - GND
+  - D7 Arduino
+
 **Consigli**
 
 Se si alimenta l'Arduino nano con un alimentatore per evitare disturbi è consigliato mettere lungo il cavetto di alimentazione una ferrite.
 Non mettere il modulo DCF77 vicino all'Arduino o allo schermo fanno interferenza, io ho messo il modulo con l'antenna ad almeno 10 cm di distanza dalla scatola con Arduino e OLED.
 
-#### Resistenza di carico 330 ohm (opzionale)
-  - GND
-  - D7 Arduino
+La scatola
 
-
+Io ho comprato il progetto di stampa 3D di questa scatola (costa pochi euro).
+Per il led ed il bottone che sono opzionali ho praticato due buchi nella scatola, ed ho praticato un foro di uscita per i cavi di collegamento del modulo di ricezione del segnale di DCF77.
