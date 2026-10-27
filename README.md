@@ -59,7 +59,7 @@ Nel codice è presente una sezione di configurazioni in modo da cambiare il comp
   - DAT (pin 6) => D5 Arduino
   - RST (pin 5) => D6 Arduino 
   - CLK (pin 7) => D4 Arduino
-  - 
+  
   - VCC (pin 1) => 5V Arduino
   - GND (pin 4) => GND Arduino
     
