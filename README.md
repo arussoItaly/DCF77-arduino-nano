@@ -95,4 +95,4 @@ Per il led ed il bottone che sono opzionali ho praticato due buchi nella scatola
 
 La scatola è piccola ed è molto precisa quindi ho scelto di utilizzare per i collegamenti interni dei fili piuttosto piccoli da 30AWG (diametro del conduttore circa 0,25 mm).
 
-Per centrare l'uscita USBC dell'Arduino con il foro ho messo sotto l'Arduino uno piccolo spessore di gomma e fissato ai lati l'Arduino con degli spessori in legno.
+Per centrare esattamente l'uscita USBC dell'Arduino con il foro della scatola ho messo sotto l'Arduino uno piccolo spessore di gomma e fissato ai lati l'Arduino con degli spessori in legno.
