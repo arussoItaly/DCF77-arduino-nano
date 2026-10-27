@@ -1,7 +1,7 @@
 # DCF77-arduino-nano
 Ricevitore DCF77 completo per Arduino nano
 
-#### Componenti:
+### Componenti:
   - Arduino nano
   - Modulo ricevitore DCF77 RC8000
   - Schermo OLED da 0.96 pollici SSD1306
