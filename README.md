@@ -80,7 +80,7 @@ Nel codice è presente una sezione di configurazioni in modo da cambiare il comp
   - GND
   - D7 Arduino
 
-###Consigli e note
+### Consigli e note
 
 Se si alimenta l'Arduino nano con un alimentatore per evitare disturbi è consigliato mettere lungo il cavetto di alimentazione una ferrite.
 Non mettere il modulo DCF77 vicino all'Arduino o allo schermo fanno interferenza, io ho messo il modulo con l'antenna ad almeno 10 cm di distanza dalla scatola con Arduino e OLED.
