@@ -66,6 +66,8 @@ Nel codice è presente una sezione di configurazioni in modo da cambiare il comp
   - X1 (pin 2) => piedino quarzo
   - X2 (pin 3) => piedino quarzo
 
+Se si alimenta l'Arduino nano con un alimentatore per evitare disturbi è consigliato mettere lungo il cavetto di alimentazione una ferrite.
+
 #### Resistenza di carico 330 ohm (opzionale)
   - GND
   - D7 Arduino
