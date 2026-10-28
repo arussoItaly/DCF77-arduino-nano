@@ -29,14 +29,14 @@ Arduino Nano
 ```
 DS1302 visto dall'alto, con la tacca in alto:
 
-                 TACCA
-              ┌────∪────┐
-      8 — VCC1│         │ Pin 1 — VCC2 => 5V
-D4 <= 7 — CLK │         │ Pin 2 — X1 ──┐
-D5 <= 6 — DAT │ DS1302  │              ├─ Quarzo
-D6 <= 5 — RST │         │ Pin 3 — X2 ──┘  32,768 kHz
-              │         │ Pin 4 — GND => Arduino GND
-              └─────────┘
+                             TACCA
+                          ┌────∪────┐
+              Pin 8 — VCC1│         │ Pin 1 — VCC2 => 5V Arduino
+Arduino D4 <= Pin 7 — CLK │         │ Pin 2 — X1 ──┐
+                          │ DS1302  │              ├─ Quarzo 32,768 kHz
+Arduino D5 <= Pin 6 — DAT │         │ Pin 3 — X2 ──┘  
+Arduino D6 <= Pin 5 — RST │         │ Pin 4 — GND => Arduino GND
+                          └─────────┘
 ```                         
   - (*opzionale*) resistenza da 330 ohm per aumentare la corrente assorbita da utilizzare caso in cui si alimenti il tutto con un power bank (che si spengono automaticamente quando il carico è troppo basso).
 
