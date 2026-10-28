@@ -13,13 +13,14 @@ Ricevitore DCF77 completo per Arduino nano
     - 100 nF ceramico multistrato
     - 10 µF elettrolitico
 ```
-Arduino Nano (3.3V) --------+--------------------+--------> VCC (RC8000)
-                            |                    |
-                           [+]                  ---  100 nF (Ceramico Multistrato)
-                      10 µF (Elettrolitico)     ---  (Filtra disturbi ad alta freq.)
-                           [-]                   |
-                            |                    |
-Arduino Nano (GND)   -------+--------------------+--------> GND (RC8000)
+Arduino Nano
+(3.3V) ------+-----------------+--------> VCC (RC8000)
+             |                 |
+            [+]               ---  100 nF (Ceramico Multistrato)
+       10 µF (Elettrolitico)  ---  (Filtra disturbi ad alta freq.)
+            [-]                |
+             |                 |
+(GND) -------+-----------------+--------> GND (RC8000)
   ```
   - (*opzionale ma consigliato*) RTC per mantenere l'ora corretta quando non è ricevuto il segnale di DCF77, in quanto il clock interno dell'Arduino nano perde normalmente circa 6 secondi ogni 15 minuti.
   
@@ -28,14 +29,14 @@ Arduino Nano (GND)   -------+--------------------+--------> GND (RC8000)
 ```
 DS1302 visto dall'alto, con la tacca in alto:
 
-                                 TACCA
-                              ┌────∪────┐
-Pin 8 — VCC1                  │         │ Pin 1 — VCC2 => Arduino 5V
-Arduino pin D4 <= Pin 7 — CLK │         │ Pin 2 — X1 ──┐
-Arduino pin D5 <= Pin 6 — DAT │ DS1302  │              ├─ Quarzo 32,768 kHz
-Arduino pin D6 <= Pin 5 — RST │         │ Pin 3 — X2 ──┘
-                              │         │ Pin 4 — GND => Arduino GND
-                              └─────────┘
+                 TACCA
+              ┌────∪────┐
+      8 — VCC1│         │ Pin 1 — VCC2 => 5V
+D4 <= 7 — CLK │         │ Pin 2 — X1 ──┐
+D5 <= 6 — DAT │ DS1302  │              ├─ Quarzo
+D6 <= 5 — RST │         │ Pin 3 — X2 ──┘  32,768 kHz
+              │         │ Pin 4 — GND => Arduino GND
+              └─────────┘
 ```                         
   - (*opzionale*) resistenza da 330 ohm per aumentare la corrente assorbita da utilizzare caso in cui si alimenti il tutto con un power bank (che si spengono automaticamente quando il carico è troppo basso).
 
