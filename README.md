@@ -32,9 +32,9 @@ DS1302 visto dall'alto, con la tacca in alto:
                              TACCA
                           +----+----+
               Pin 8 — VCC1│         │ Pin 1 — VCC2 => 5V Arduino
-Arduino D4 <= Pin 7 — CLK │         │ Pin 2 — X1 ──┐
-                          │ DS1302  │              ├─ Quarzo 32,768 kHz
-Arduino D5 <= Pin 6 — DAT │         │ Pin 3 — X2 ──┘  
+Arduino D4 <= Pin 7 — CLK │         │ Pin 2 — X1 --+
+                          │ DS1302  │              | Quarzo 32,768 kHz
+Arduino D5 <= Pin 6 — DAT │         │ Pin 3 — X2 --+  
 Arduino D6 <= Pin 5 — RST │         │ Pin 4 — GND => Arduino GND
                           +---------+
 </pre>
