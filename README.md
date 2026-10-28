@@ -26,7 +26,7 @@ Arduino Nano
   
     - integrato RTC DS1302
     - quarzo da 32768
-```
+<pre style="font-family: monospace; white-space: pre; overflow-x: auto;">
 DS1302 visto dall'alto, con la tacca in alto:
 
                              TACCA
@@ -37,7 +37,8 @@ Arduino D4 <= Pin 7 — CLK │          │ Pin 2 — X1 ──┐
 Arduino D5 <= Pin 6 — DAT │          │ Pin 3 — X2 ──┘  
 Arduino D6 <= Pin 5 — RST │          │ Pin 4 — GND => Arduino GND
                           └─────────┘
-```                         
+</pre>
+  
   - (*opzionale*) resistenza da 330 ohm per aumentare la corrente assorbita da utilizzare caso in cui si alimenti il tutto con un power bank (che si spengono automaticamente quando il carico è troppo basso).
 
 Nel codice è presente una sezione di configurazioni in modo da cambiare il comportamento e disabilitare/abilitare RTC, resistenza, led, ecc.
