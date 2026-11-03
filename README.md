@@ -121,6 +121,27 @@ Per centrare esattamente l'uscita USBC dell'Arduino con il foro della scatola ho
 <img width="300" height="185" alt="Montaggio dentro la scatola 1" src="images/Montaggio1.png" />
 <img width="229" height="185" alt="Montaggio dentro la scatola 2" src="images/Montaggio2.png" />
 
+Per compilare e utilizzare correttamente il progetto è necessario installare alcune librerie aggiuntive tramite Arduino IDE.
+
+### Librerie esterne da installare
+
+- **Adafruit GFX Library** – Adafruit  
+  Libreria grafica di base per la gestione del display OLED.  
+  https://github.com/adafruit/Adafruit-GFX-Library
+
+- **Adafruit SSD1306** – Adafruit  
+  Gestione del display OLED SSD1306 tramite interfaccia I²C.  
+  https://github.com/adafruit/Adafruit_SSD1306
+
+- **TimeLib (Time)** – Paul Stoffregen  
+  Gestione di ora, minuti, secondi, data e calendario.  
+  https://github.com/PaulStoffregen/Time
+
+- **Rtc by Makuna** – Makuna (opzionale, solo se si usa l'RTC: nel codice direttiva `RTC_ON`) 
+  Gestione del modulo RTC DS1302.  
+  https://github.com/Makuna/Rtc
+
+
 
 
 <img width="200" height="165" alt="Prototipo iniziale" src="images/Prototipo.png" />
