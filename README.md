@@ -121,9 +121,8 @@ Per centrare esattamente l'uscita USBC dell'Arduino con il foro della scatola ho
 <img width="300" height="185" alt="Montaggio dentro la scatola 1" src="images/Montaggio1.png" />
 <img width="229" height="185" alt="Montaggio dentro la scatola 2" src="images/Montaggio2.png" />
 
-Per compilare e utilizzare correttamente il progetto è necessario installare alcune librerie aggiuntive tramite Arduino IDE.
-
 ### Librerie esterne da installare
+Per compilare e utilizzare correttamente il progetto è necessario installare alcune librerie aggiuntive tramite Arduino IDE.
 
 - **Adafruit GFX Library** – Adafruit  
   Libreria grafica di base per la gestione del display OLED.  
