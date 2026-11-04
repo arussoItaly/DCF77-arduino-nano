@@ -133,7 +133,7 @@ Per compilare e utilizzare correttamente il progetto è necessario installare al
   https://github.com/adafruit/Adafruit_SSD1306
 
 - **Adafruit BusIO** – Adafruit
-  Necessaria per alcune funzionalità di comunicazione hardware.
+  Necessaria per alcune funzionalità di comunicazione hardware.  
   https://github.com/adafruit/Adafruit_BusIO
   
 - **TimeLib (Time)** – Paul Stoffregen  
