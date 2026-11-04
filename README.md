@@ -144,11 +144,4 @@ Per compilare e utilizzare correttamente il progetto è necessario installare al
   Gestione del modulo RTC DS1302.  
   https://github.com/Makuna/Rtc
 
-
-
-
 <img width="200" height="165" alt="Prototipo iniziale" src="images/Prototipo.png" />
-
-
-
-
