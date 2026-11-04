@@ -132,7 +132,7 @@ Per compilare e utilizzare correttamente il progetto è necessario installare al
   Gestione del display OLED SSD1306 tramite interfaccia I²C.  
   https://github.com/adafruit/Adafruit_SSD1306
 
-- **Adafruit BusIO** – Adafruit
+- **Adafruit BusIO** – Adafruit  
   Necessaria per alcune funzionalità di comunicazione hardware.  
   https://github.com/adafruit/Adafruit_BusIO
   
@@ -140,7 +140,7 @@ Per compilare e utilizzare correttamente il progetto è necessario installare al
   Gestione di ora, minuti, secondi, data e calendario.  
   https://github.com/PaulStoffregen/Time
 
-- **Rtc by Makuna** – Makuna (opzionale, solo se si usa l'RTC: nel codice direttiva `RTC_ON`) 
+- **Rtc by Makuna** – Makuna (opzionale, solo se si usa l'RTC: nel codice direttiva `RTC_ON`)  
   Gestione del modulo RTC DS1302.  
   https://github.com/Makuna/Rtc
 
