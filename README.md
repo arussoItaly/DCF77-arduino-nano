@@ -106,6 +106,9 @@ Non mettere il modulo DCF77 vicino all'Arduino o allo schermo fanno interferenza
 
 Io ho utilizzato un pezzo di tubo di plastica di quelli utilizzati per impianti elettrici  (sezione 6 mm) ed ho messo al suo interno il modulo RC8000 con applicato il filtro anti-disturbo e l'antenna in ferrite (come da immagine), in modo da tenere sia l'antenna in ferrite che il modulo di ricezione lontani dalla scatola contenente lo schermo e l'Arduino.
 
+L'antenna in ferrite del modulo RC8000 è direzionale e va orientata correttamente verso il trasmettitore DCF77 per ricevere il segnale.
+<img width="200" height="200" alt="Mpdulo RC8000 e orientamento antenna" src="images/ModuloRC8000.png" />
+
 **La scatola**
 
 Io ho comprato il progetto di stampa 3D di questa scatola (costa pochi euro):
